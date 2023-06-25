@@ -1,0 +1,88 @@
+$font-family-sans-serif: 'Rubik', sans-serif;
+
+$navbar-nav-link-padding-x: 1.5rem;
+$navbar-nav-link-hover-color: hsl(0, 94%, 66%);
+
+$primary: #3575CC;
+$danger: hsl(0, 94%, 66%);
+$dark: hsl(229, 31%, 21%);
+
+$btn-padding-x: 1rem;
+
+$card-border-color: none;
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+@import "./node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
+.navShadow {
+  box-shadow: 0 1px 21px #dfdfdf;
+}
+
+.mb-150 {
+  margin-bottom: 150px;
+}
+
+.mb-120 {
+  margin-bottom: 120px;
+}
+
+.mb-200 {
+  margin-bottom: 200px;
+}
+
+.footerFirstText {
+  letter-spacing: 7px;
+}
+
+.px-150 {
+  padding: 0 150px;
+}
+
+.card {
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.btn {
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: translateY(-5px);
+}
+
+@media screen and (max-width: 576px) {
+  .btn {
+      #footerButtons {
+          padding: 1rem 1rem;
+      }
+  }
+} 
+
+@media screen and (max-width: 576px) {
+  .btn {
+      padding: 1rem 1rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #featureButtons {
+      .nav-link {
+          padding: 1rem 1rem;
+      }
+  }
+  
+}
+
+@media screen and (max-width: 992px) {
+  #nav1 {
+      .nav-item {
+          border: 1px solid #dee2e6;
+          border-radius: 10px;
+      }
+  }
+}
