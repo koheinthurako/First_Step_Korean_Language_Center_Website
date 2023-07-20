@@ -76,16 +76,17 @@ $card-border-color: none;
   
 }
 
-// @media screen and (max-width: 992px) {
-//   #nav1 {
-//       .nav-item {
-//           border: 1px solid #dee2e6;
-//           border-radius: 10px;
-//       }
+@media screen and (max-width: 992px) {
+  #nav1 {
+      .nav-item {
+          border: 1px solid #dee2e6;
+          border-radius: 10px;
+      }
 
-//       .nav-item .btn {
-//         border: none;
-//         width: 100%;
-//       }
-//   }
-// }
+      .nav-item .btn {
+        border: none;
+        padding: 10px 0;
+        width: 100%;
+      }
+  }
+}
