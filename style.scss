@@ -55,34 +55,37 @@ $card-border-color: none;
   transform: translateY(-5px);
 }
 
-@media screen and (max-width: 576px) {
-  .btn {
-      #footerButtons {
-          padding: 1rem 1rem;
-      }
-  }
-} 
-
-@media screen and (max-width: 576px) {
-  .btn {
-      padding: 1rem 1rem;
-  }
+.flip-horizontal {
+  transform: scaleX(-1);
 }
 
 @media screen and (max-width: 576px) {
-  #featureButtons {
-      .nav-link {
-          padding: 1rem 1rem;
-      }
+
+  #featureButtons .nav-item {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  #featureButtons .nav-item:last-child {
+    margin-bottom: 0;
+  }
+
+  #featureButtons .nav-item .nav-link{
+    width: 100%;
   }
   
 }
 
-@media screen and (max-width: 992px) {
-  #nav1 {
-      .nav-item {
-          border: 1px solid #dee2e6;
-          border-radius: 10px;
-      }
-  }
-}
+// @media screen and (max-width: 992px) {
+//   #nav1 {
+//       .nav-item {
+//           border: 1px solid #dee2e6;
+//           border-radius: 10px;
+//       }
+
+//       .nav-item .btn {
+//         border: none;
+//         width: 100%;
+//       }
+//   }
+// }
