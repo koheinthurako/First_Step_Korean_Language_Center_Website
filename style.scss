@@ -59,6 +59,12 @@ $card-border-color: none;
   transform: scaleX(-1);
 }
 
+.navbar a {
+  cursor: pointer;
+}
+
+
+
 @media screen and (max-width: 576px) {
 
   #featureButtons .nav-item {
